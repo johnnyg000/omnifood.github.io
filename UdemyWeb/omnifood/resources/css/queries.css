@@ -1,0 +1,67 @@
+
+/* Small phones 0px - 480px */
+@media only screen and (max-width: 480px) {
+  .mobile-nav-icon{
+        display: inline-block;
+    }  
+}
+
+/* Small tabelts 481px - 767px */
+@media only screen and (max-width: 767px) {
+    .mobile-nav-icon{
+        display: inline-block;
+        visibility: visible;
+    }
+}
+
+/* Tabelts 768px - 1023px */
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 18px;
+    }
+    
+    section{
+        padding: 60px;
+    }
+    
+    .long-copy{
+    width: 80%;
+    margin-left: 10%;
+    }
+    
+    .steps-box {
+        margin-top: 10px;
+    }
+    
+    .steps-box:last-child {
+        margin-top: 10px;
+    }
+    
+    .works-step {
+        margin-bottom: 40px;
+        text-align: justify;
+    }
+    
+     .works-step:last-of-type {
+        margin-bottom: 40px;
+    }
+    
+    .app-screen {
+        width: 50%;
+    }
+    
+}
+
+/* Large tabelts 1024px - 1200px */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box{
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row {
+        padding: 0 2%;
+    }
+    
+    
+}
