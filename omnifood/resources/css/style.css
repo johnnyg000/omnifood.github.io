@@ -229,22 +229,6 @@ header {
 }
 
 /*---------------------------------------*/
-/* Mobile Nav */
-/*---------------------------------------*/
-
-.mobile-nav-icn {
-    float: right;
-    margin-top: 30px;
-    cursor: pointer;
-    visibility: hidden;
-}
-
-.mobile-nav-icn ion-icon{
-    font-size: 200%;
-    color: white;
-}
-
-/*---------------------------------------*/
 /* Sticky Nav */
 /*---------------------------------------*/
 
